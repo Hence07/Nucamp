@@ -32,8 +32,8 @@
                 </div>
                 
                 <div class="col- mr-4 m-xl-2 xs-auto"> 
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="#reserveButton">Reserve Campsite</button>
-                    <!-- <a role="button" class="btn btn-info btn-lg" id="#reserveButton">Reserve Campsite</a> -->
+                    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="#reserveButton">Reserve Campsite</button> -->
+                    <a role="button" class="btn btn-info btn-lg" id="#reserveButton">Reserve Campsite</a>
             
                 </div> 
         </div>
@@ -43,51 +43,49 @@
             
     </header>
     <div class="modal fade modal-lg" id="reserveModal" >
-        <div class="modal-dialog modal-lg ">
-            <div class="modal-content">
-                <div class=" card-header bg-info text-white">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title card-header-element-title">Reserve a Campsite</h3>
-                </div>
+            <div class="modal-dialog modal-lg ">
+                    <div class="modal-content">
+                            <div class=" card-header bg-info text-white">
+                                    <button type="button" class="close" data-dismiss="modal">&times; 
+                                    </button>
+                                            <h3 class="modal-title card-header-element-title">Reserve a    Campsite
+                                            </h3>
+                            </div>
                     <div class="modal-body">
-                        <!-- <form id="reserveForm"> -->
-                        <form>
-                        
-                            <div class="row">
-                                <label class="col-sm-4 col-md-4" for="numberCampers">Number of Campers</label>
-                                <div class="col">
-                                    <select class="numCampers" id="numCampers">
-                                        <option value="select"> Select...</option>
-                                        <option value="select"> 1</option>
-                                        <option value="select"> 2</option>
-                                        <option value="select"> 3</option>
-                                        <option value="select"> 4</option>
-                                        <option value="select"> 5</option>
-                                        <option value="select"> 6</option>
-                                    </select>
+                            <form>
+                                    <div class="row">
+                                            <label class="col-sm-4 col-md-4" for="numberCampers">Number of  Campers
+                                             </label>
+                                    <div class="col">
+                                            <select class="numCampers" id="numCampers">
+                                                    <option value="select"> Select...</option>
+                                                    <option value="select"> 1</option>
+                                                    <option value="select"> 2</option>
+                                                    <option value="select"> 3</option>
+                                                    <option value="select"> 4</option>
+                                                    <option value="select"> 5</option>
+                                                    <option value="select"> 6</option>
+                                            </select>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-sm-4 col-md-4" for="date">Date</label>
-                                <div class="">
-                                    <input type="date" id="date" name="name" placeholder="#">
-                        
+                                    <label class="col-sm-4 col-md-4" for="date">Date</label>
+                                <div class="row">
+                                    <input type="date" id="date" name="name" placeholder="name">
                                 </div>
                             </div>
                             <div class="row" >
-                                <label class="col-sm-6 col-md-6" text="Campsite Type"> Campsite Type</label>
-                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="col-sm-6 col-md-6" text="Campsite Type"> Campsite Type
+                                    </label>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-success active">
-                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Tent
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Tent
                                     </label>
                                     <label class="btn btn-primary">
-                                        <input type="radio" name="options" id="option2" autocomplete="off"> RV
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> RV
                                     </label>
                                 </div>
-                            </div>
-                                    
-                        
-                            
+                            </div>                            
                         </form>
 
                         <div class="footer">
@@ -98,30 +96,37 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
         
     
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
+            <div class="container">
                     <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
 
-        <button class="navbar-toggler " type="button" data-toggle="collapse" 
-        data-target="#nucampNavbar">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse-navbar-collapse" id="nucampNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item-active"> <a class= "nav-link" href="#"> <i class="fa fa-home fa-lg">
-            </i>Home</a></li>
-            <li class="navbar-item"> <a class="nav-link" href="aboutus.html"> <i class="fa fa-info fa-lg"></i>About</a></li>
-            <li class="navbar-item"> <a class="nav-link" href="#"><i class="fa fa-list fa-lg">
-            </i>Sites</a></li>
-            <li> <a class="nav-link" href="contactus.html"> <i class ="fa fa-address-card fa-lg"></i>Contact</a></li>
+                            <button class="navbar-toggler " type="button" data-toggle="collapse" 
+                                data-target="#nucampNavbar">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button>
+            <div class="collapse-navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                            <li class="nav-item-active"> <a class= "nav-link" href="#"> <i class="fa fa-home fa-lg">
+                                    </i>Home</a>
+                            </li>
+                        <li class="navbar-item"> <a class="nav-link" href="aboutus.html">
+                                 <i class="fa      fa-info fa-lg"></i>About</a>
+                        </li>
+                        <li class="navbar-item"> <a class="nav-link" href="#">
+                                <i class="fa fa-list fa-lg"></i>Sites</a>
+                        </li>
+                        <li> <a class="nav-link" href="contactus.html"> 
+                                <i class ="fa fa-address-card fa-lg">
+                                </i>Contact</a>
+                        </li>
             <span class="navbar-text ml-auto">
                 <!-- <a data-toggle="modal" data-target="#loginModal">
                     <i class="fa fa-sign-in"></i> Login</a> -->
-                <a id="loginButton">
+                <a role="button" id="#loginButton">
                     <i class="fa fa-sign-in"></i> Login</a>
             </span>
         </ul>

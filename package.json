@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is a website for our fictional campsites review site Nucamp",
   "main": "index.html",
+  
   "scripts": {
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",

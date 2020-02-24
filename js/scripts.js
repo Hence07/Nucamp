@@ -20,5 +20,8 @@ $(function(){
     $("#reserveButton").click(function (){
         $("#reserveModal").modal("show");
     });
+    $("#reserveLogin").click(function(){
+        $("#reserveModal").modal("show");
+    });
     
 });
